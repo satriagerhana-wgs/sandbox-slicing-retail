@@ -155,3 +155,29 @@ body{
     margin-bottom: 10px;
 }
 
+.detail-pembayaran{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 15px 0;
+}
+
+.detail-pembayaran p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.total-payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 15px 0;
+}
+.total-payment p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
