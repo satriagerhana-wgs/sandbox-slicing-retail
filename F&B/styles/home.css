@@ -11,7 +11,7 @@ body{
 
 .container-retail{
     width: 360px;
-    height: auto;
+    height: 800px;
     margin: auto;
     background: #fff;
     padding: 10px;
@@ -215,9 +215,26 @@ body{
 
 /* START FOOTER */
 .logo-powered{
-    margin: 70px 0 5px 0;
+    margin: 70px auto 10px auto;
+    width: 174px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.text-powered{
+    margin: 0 10px;
+}
+
+.text-powered p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.img-powered{
+    width: 50px;
+    height: 30px;
 }
 /* END FOOTER */
