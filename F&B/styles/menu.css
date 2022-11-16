@@ -23,12 +23,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
 .container-img-retail img{
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     margin: 10px;
 }
 
