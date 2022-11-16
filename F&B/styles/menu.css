@@ -14,7 +14,6 @@ body{
     height: 880px;
     margin: auto;
     background: #fff;
-    padding: 10px;
 }
 /* END CONTAINER */
 
@@ -24,6 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container-img-retail img{
