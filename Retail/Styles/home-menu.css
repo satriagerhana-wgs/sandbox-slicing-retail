@@ -11,7 +11,7 @@ body{
 /* START CONTAINER */
 .container-retail{
     width: 360px;
-    height: 880px;
+    height: auto;
     margin: auto;
     background: #fff;
 }
@@ -154,27 +154,31 @@ body{
 
 
 .card{
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
     box-shadow: 0px 8px 10px 0px #0000001F;
-    margin: 0 12px;
+    background: #FFEEC2;
+    margin: 0 5px;
 }
 
-.icon-card{
-    height: 30px;
-    width: 30px;
+.icon-card img{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .artikel-card p {
     font-size: 12px;
     color: #010101;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 /* START CARD KATEGORI */
 
