@@ -39,6 +39,10 @@ body{
   padding-left: 10px;
 }
 
+.container-header img{
+    cursor: pointer;
+}
+
 .container-header p{
     font-size: 22px;
     font-weight: bold;

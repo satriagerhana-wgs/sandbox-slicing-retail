@@ -32,10 +32,6 @@ body{
     padding: 10px;
 }
 
-.text-banner img {
-    margin-left: -10px;
-}
-
 .text-banner p:nth-child(2){
     font-size: 25px;
     font-weight: bold;

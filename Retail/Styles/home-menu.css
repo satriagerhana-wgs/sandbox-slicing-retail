@@ -20,6 +20,21 @@ body{
 
 /* START HEADER */
 .header-retail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.header-retail .back{
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 85%;
+    height: 89px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +44,6 @@ body{
 .container-img-retail img{
     width: 70px;
     height: 70px;
-    margin: 10px;
 }
 
 .header-retail p{
@@ -135,6 +149,7 @@ body{
 
 .text-categori p:nth-child(2) {
     color: #FFC535;
+    cursor: pointer;
 }
 
 .card-categori{

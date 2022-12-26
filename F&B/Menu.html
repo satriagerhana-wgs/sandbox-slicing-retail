@@ -14,11 +14,16 @@
 
         <!-- START HEADER -->
         <div class="header-retail">
-            <div class="container-img-retail">
-                <img src="Assets/retail.png" alt="">
+            <div class="back" onclick="back()">
+                <img src="Assets/icon/back.png" alt="">
             </div>
- 
-            <p>Hoka Hoka Bento - Miko Mall</p>
+            <div class="logo">
+                <div class="container-img-retail">
+                    <img src="Assets/retail.png" alt="">
+                </div>
+     
+                <p>Hoka Hoka Bento - Miko Mall</p>
+            </div>
         </div>
         <!-- END HEADER -->
 
@@ -144,7 +149,7 @@
         <div class="container-categori">
             <div class="text-categori">
                 <p>Produk Terbaru</p>
-                <p>Lihat Semua</p>
+                <p onclick="lihatSemua()">Lihat Semua</p>
             </div>
 
             <div class="card-produk">
@@ -228,9 +233,9 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Button  -->
             </div>
+            
+            <!-- Button  -->
             <div class="pesanan-saya">
                 <div class="cart-detail">
                     <div class="cart">
@@ -249,5 +254,14 @@
         </div>
     </div>
     <!-- END CONTAINER -->
+
+    <script>
+        function back() {
+            window.location.replace('/Home.html')
+        }
+        function lihatSemua() {
+            window.location.replace('/Lihat-Semua.html')
+        }
+    </script>
 </body>
 </html>

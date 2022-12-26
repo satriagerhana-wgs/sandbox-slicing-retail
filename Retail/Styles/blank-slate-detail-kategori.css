@@ -374,9 +374,10 @@ button p{
     width: 360px;
     height: 221px;
     border-radius: 20px 20px 0 0;
-    background-image: url('/Assets/detail\ produk.png');
+    background-image: url('/Assets/icon/produk-blank-slate.svg');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: 20px;
 }
 
