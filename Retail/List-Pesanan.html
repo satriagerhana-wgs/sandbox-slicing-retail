@@ -12,7 +12,7 @@
     <div class="container-retail">
         <div class="header">
             <div class="container-header">
-                <img src="Assets/icon/back.png" alt="">
+                <img src="Assets/icon/back.png" alt="" onclick="back()">
                 <p>List Pesanan</p>
             </div>
         </div>  
@@ -342,6 +342,10 @@
     <!-- END CONTAINER -->
 
     <script>
+         function back(){
+            window.location.replace('./Home.html')
+        }
+
         function functionCard1() {
           const element = document.getElementById("card-1");
           element.remove();

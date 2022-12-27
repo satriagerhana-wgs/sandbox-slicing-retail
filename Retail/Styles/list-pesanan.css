@@ -44,6 +44,10 @@ body{
     font-weight: bold;
 }
 
+.container-header img{
+    cursor: pointer;
+}
+
 .menu-filter{
     width: 348px;
     display: flex;
