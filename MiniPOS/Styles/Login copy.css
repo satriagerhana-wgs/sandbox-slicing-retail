@@ -1,3 +1,4 @@
+/* START GENERAL STYLE */
 @import url('https://fonts.cdnfonts.com/css/d-din');
 
 :root {
@@ -27,20 +28,20 @@ body{
     background-image: url(../Assets/Bg-Login.svg);
 }
 
-
 .status-bar{
     margin-bottom: 52px;
 }
+/* END GENERAL STYLE */
 
-
-
-
+/* START LOGO */
 .logo-sandbox{
     display: flex;
     justify-content: center;
     margin-bottom: 95px;
 }
+/* END LOGO */
 
+/* START FORM */
 .form-login{
     width: 360px;
     height: 535px;
@@ -140,12 +141,9 @@ form{
     font-size: 14px;
     text-align: center;
 }
+/* END FORM */
 
-
-
-
-
-/* START BOTTOM SHEET */
+/* START BOTTOM SHEET 1 */
 #overlay{
     position: fixed;
     top: 0px;
@@ -262,11 +260,11 @@ form{
 .button-next-login a{
     text-decoration: none;
 }
-/* END BOTTOM SHEET */
+/* END BOTTOM SHEET 1*/
 
 
 
-/* START BOTTOM SHEET */
+/* START BOTTOM SHEET 2*/
 #overlay-2{
     position: fixed;
     top: 0px;
@@ -342,3 +340,4 @@ form{
     color: var(--hitam-button);
     cursor: pointer;
 }
+/* END BOTTOM SHEET 2*/

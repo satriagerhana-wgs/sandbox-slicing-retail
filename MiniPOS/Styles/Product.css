@@ -1,3 +1,4 @@
+/* START GENERAL STYLE */
 @import url('https://fonts.cdnfonts.com/css/d-din');
 
 :root {
@@ -30,11 +31,12 @@ body{
     background-color: var(--putih);
 }
 
-
 .status-bar{
     margin-bottom: 16px;
 }
+/* END GENERAL STYLE */
 
+/* START HEADER */
 .header-title{
     margin: 0 16px;
     width: 200px;
@@ -50,7 +52,9 @@ body{
 .header-title p{
     font-size: 20px;
 }
+/* END HEADER */
 
+/* START SEARCH */
 .search{
     display: flex;
     flex-direction: row;
@@ -70,7 +74,9 @@ body{
     outline: none;
     margin-left: 16px;
 }
+/* END SEARCH */
 
+/* START KATEGORI */
 .kategori{
     padding-left: 16px;
     display: flex;
@@ -98,7 +104,9 @@ body{
     border: none;
     border-bottom: 2px solid var(--hitam);
 }
+/* END KATEGORI */
 
+/* START PRODUCT */
 .product-kategori{
     width: 328px;
     margin: 15px auto;
@@ -161,7 +169,9 @@ body{
     font-size: 14px;
     color: var(--putih);
 }
+/* END PRODUCT */
 
+/* START BUTTON */
 .btn-add button{
     width: 60px;
     height: 25px;
@@ -194,7 +204,9 @@ body{
     box-shadow: 0px 8px 10px 0px #0000001F;
 
 }
+/* END BUTTON */
 
+/* START MENU */
 .menuBottom{
     width: 310px;
     height: 60px;
@@ -217,11 +229,12 @@ body{
     background-color: var(--kuning);
     border-radius: 15px;
 }
+/* END MENU */
 
 
 
 
-/* bottom sheet 2 */
+/* START BOTTOM SHEET 1 */
 #overlay{
     position: fixed;
     top: 0px;
@@ -266,11 +279,9 @@ body{
     justify-content: center;
     margin: 10px auto;
 }
+/* START BOTTOM SHEET 1 */
 
-
-
-
-/* START BOTTOM SHEET */
+/* START BOTTOM SHEET 2 */
 #overlay-2{
     position: fixed;
     top: 0px;
@@ -387,9 +398,9 @@ body{
     display: flex;
     justify-content: center;
 }
+/* END BOTTOM SHEET 2 */
 
-/* END BOTTOM SHEET */
-
+/* START BOTTOM SHEET 3 */
 #overlay-3{
     position: fixed;
     top: 0px;
@@ -519,3 +530,4 @@ body{
     box-shadow: 0px 8px 10px 0px #0000001F;
     cursor: pointer;
 }
+/* END BOTTOM SHEET 3 */

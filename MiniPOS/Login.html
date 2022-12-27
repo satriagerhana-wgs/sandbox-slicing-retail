@@ -9,44 +9,48 @@
 </head>
 <body>
     <div class="container-mobile">
+      <!-- START STATUS BAR -->
       <div class="status-bar">
         <img src="Assets/status bar.png" alt="">
       </div>
+      <!-- END STATUS BAR -->
 
-        <div class="logo-sandbox">
-            <img src="Assets/logo-sandbox.svg" alt="">
+      <!-- START LOGO -->
+      <div class="logo-sandbox">
+          <img src="Assets/logo-sandbox.svg" alt="">
+      </div>
+      <!-- END LOGO -->
+
+      <!-- START FORM -->
+      <div class="form-login">
+        <div class="text-form">
+          <p>Login</p>
         </div>
 
-        <div class="form-login">
-          
-          <div class="text-form">
-            <p>Login</p>
+        <form action="#">
+          <div class="form-input">
+              <label for="email">Email *</label>
+              <input type="text" placeholder="Masukan Email Anda">
+          </div>
+          <div class="form-input">
+              <label for="email">Password *</label>
+              <input type="password" placeholder="Masukan Password Anda">
           </div>
 
-          <form action="#">
-            <div class="form-input">
-                <label for="email">Email *</label>
-                <input type="text" placeholder="Masukan Email Anda">
-            </div>
-            <div class="form-input">
-                <label for="email">Password *</label>
-                <input type="password" placeholder="Masukan Password Anda">
-            </div>
-
-            <div class="forgot-password">
-              <a href="Forgot-Password.html">Lupa Password.?</a>
-            </div>
-          </form>
-
-          <div class="button-login">
-           <button onclick="show()">Login</button>
+          <div class="forgot-password">
+            <a href="Forgot-Password.html">Lupa Password.?</a>
           </div>
+        </form>
 
-          <p class="by">2022 © All Reserved by Sanbox</p>
+        <div class="button-login">
+          <button onclick="show()">Login</button>
         </div>
-    </div>
 
-      <!-- START BOTTOM SHEET -->
+        <p class="by">2022 © All Reserved by Sanbox</p>
+      </div>
+      <!-- END FORM -->
+
+      <!-- START BOTTOM SHEET 1 -->
       <div id="overlay">
         <div id="bottomSheet">
             <p class="title-bottom">Hi, Jonathan Adrian</p>
@@ -91,11 +95,10 @@
             </div>
         </div>    
     </div>
-    <!-- END BOTTOM SHEET -->
+    <!-- END BOTTOM SHEET 1 -->
 
 
-    <!-- Start BOTTOM SHEET -->
-
+    <!-- Start BOTTOM SHEET 2-->
     <div id="overlay-2">
       <div id="bottomSheet-2">
         <div class="button-close">
@@ -113,7 +116,7 @@
           </div>
         </div>    
     </div>
-  <!-- END BOTTOM SHEET -->
+  <!-- END BOTTOM SHEET 2-->
 
 
     <script src="Scripts/login copy.js"></script>
